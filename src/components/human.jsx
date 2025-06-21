@@ -1,3 +1,4 @@
+import humanImg from "../assets/loading.webp";
 export default function Human({ isFlipped }) {
     return (
         <div
@@ -6,7 +7,7 @@ export default function Human({ isFlipped }) {
             }`}
         >
             <img
-                src="/src/assets/loading.webp"
+                src={humanImg}
                 alt="walking human"
                 className="h-[30rem] w-[10rem] object-cover"
             />

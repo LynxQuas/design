@@ -1,3 +1,4 @@
+import logo from "../assets/logo.webp";
 export default function Header({ isFlipped }) {
     return (
         <header
@@ -9,7 +10,7 @@ export default function Header({ isFlipped }) {
         >
             <div className="md:w-[368px] md:h-[71.8px]">
                 <img
-                    src="/src/assets/logo.webp"
+                    src={logo}
                     alt="logo"
                     className="object-contain w-full h-full"
                 />
